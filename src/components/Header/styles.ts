@@ -3,11 +3,15 @@ import styled from "styled-components";
 
 export const Navbar = styled.nav`
   position: relative;
+
   width: 100%;
+  max-width: 908px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 3rem;
+
+  padding: 24px 16px;
   flex: 1;
   z-index: 1;
 
@@ -22,6 +26,7 @@ export const Navbar = styled.nav`
     content: '';
     display: none;
   }
+
 
   .logoMobile {
     display: none;
